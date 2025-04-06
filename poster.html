@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship Summary</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #1e293b;
+        }
+
+        .divider {
+            border-bottom: 2px dashed #fb923c;
+            margin: 1.5rem 0;
+        }
+
+        .floating-badge {
+            background-color: #111827;
+            color: #ffffff;
+        }
+
+        .floating-badge p {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .floating-badge p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans px-7 pb-8 text-gray-800 text-[1rem] md:text-[1.1rem] font-semibold">
+
+    <div
+        class="max-w-6xl mx-auto p-4 sm:p-6 mt-16 bg-white bg-opacity-95 shadow-2xl rounded-2xl space-y-10 border border-orange-300 relative">
+
+        <!-- Floating Name Badge -->
+        <div class="absolute top-4 sm:top-56 left-1/2 transform -translate-x-1/2 z-50 w-[90%] sm:w-auto">
+            <div class="floating-badge shadow-md rounded-full px-4 sm:px-6 py-2 border-2 border-white text-center">
+                <p>👩‍💻 Nikita Choudhary | Roll No. 61 | (T1903203028)</p>
+            </div>
+        </div>
+
+        <!-- Header with logo and name -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-20 sm:pt-2 text-center sm:text-left">
+            <div>
+                <img src="./clg.png" alt="College Logo"
+                    class="w-24 h-24 sm:w-32 sm:h-32 rounded-full shadow-lg mx-auto sm:mx-0" />
+            </div>
+            <div>
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
+                    Modern Education Society's Wadia College of Engineering, Pune
+                </h1>
+                <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mt-1">
+                    Full-Stack Development Internship under <span class="font-bold">Arevei</span>
+                </h2>
+                <p class="text-gray-600">Duration: 7 Months</p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Tech Stack -->
+        <section>
+            <h3 class="text-2xl font-bold text-orange-800 mb-4 text-center sm:text-left">Tech Stack Used</h3>
+            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-4 text-center">
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                        class="w-10 h-10 sm:w-12 sm:h-12" />
+                    <span class="mt-1">React</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                        class="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded" />
+                    <span class="mt-1">Next.js</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./tail.png" class="w-10 h-10 sm:w-12 sm:h-12" />
+                    <span class="mt-1">Tailwind</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                        class="w-10 h-10 sm:w-12 sm:h-12" />
+                    <span class="mt-1">MongoDB</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./node.png" class="w-10 h-10 sm:w-12 sm:h-12" />
+                    <span class="mt-1">Node.js</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                        class="w-10 h-10 sm:w-12 sm:h-12 bg-white p-1 rounded" />
+                    <span class="mt-1">Express</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./aws.png" class="w-10 h-10 sm:w-12 sm:h-12" />
+                    <span class="mt-1">AWS</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        class="w-10 h-10 sm:w-12 sm:h-12" />
+                    <span class="mt-1">TypeScript</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Section 1 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-[#e0f2fe] p-4 sm:p-6 rounded-lg shadow-md">
+                <h3 class="text-lg sm:text-xl font-bold text-blue-900 mb-2">Introduction</h3>
+                <p>I contributed to full-stack development projects focusing on scalable systems, smooth user
+                    experience, and performance using React, Next.js, MongoDB, Node.js, and Express.js.</p>
+            </div>
+            <div class="bg-yellow-100 p-4 sm:p-6 rounded-lg shadow-md">
+                <h3 class="text-lg sm:text-xl font-bold text-yellow-900 mb-2">Objectives</h3>
+                <ul class="space-y-2">
+                    <li class="flex items-start"><span class="text-xl mr-2">🎯</span> Gain real-world exposure to
+                        end-to-end development.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">🛡️</span> Implement robust authentication
+                        and scalable backend systems.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">💡</span> Focus on UI/UX and responsiveness
+                        across devices.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-green-50 p-4 sm:p-6 rounded-lg shadow-md">
+                <h3 class="text-lg sm:text-xl font-bold text-green-900 mb-2">Tasks Accomplished</h3>
+                <ul class="space-y-2">
+                    <li class="flex items-start"><span class="text-xl mr-2">🚀</span> Built an e-commerce platform
+                        serving 1,000+ users.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">🔧</span> Created 50+ REST APIs reducing
+                        server response time.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">🌐</span> Developed a dynamic site using
+                        MERN + TS.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">🔐</span> Integrated JWT authentication and
+                        Razorpay.</li>
+                </ul>
+            </div>
+            <div class="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-md">
+                <h3 class="text-lg sm:text-xl font-bold text-blue-900 mb-2">Methodology</h3>
+                <ul class="space-y-2">
+                    <li class="flex items-start"><span class="text-xl mr-2">🧩</span> Modular architecture for
+                        maintainability.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">⚙️</span> Agile with iterations and
+                        feedback.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">📈</span> Load testing and caching.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">☁️</span> Deployed via AWS EC2, S3 & Vercel.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-purple-50 p-4 sm:p-6 rounded-lg shadow-md">
+                <h3 class="text-lg sm:text-xl font-bold text-purple-900 mb-2">Results</h3>
+                <ul class="space-y-2">
+                    <li class="flex items-start"><span class="text-xl mr-2">🏆</span> Scalable systems adopted by
+                        clients.</li>
+                    <li class="flex items-start"><span class="text-xl mr-2">⚡</span> Faster flows via optimized APIs.
+                    </li>
+                    <li class="flex items-start"><span class="text-xl mr-2">📊</span> Positive UI & speed feedback.</li>
+                </ul>
+            </div>
+            <div class="bg-red-50 p-4 sm:p-6 rounded-lg shadow-md">
+                <h3 class="text-lg sm:text-xl font-bold text-red-900 mb-2">Conclusion</h3>
+                <p>This internship gave me hands-on full-stack experience, helped me improve architecture, and taught me
+                    deployment workflows.</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
